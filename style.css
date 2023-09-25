@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#hero {
+  height: 100vh;
+  background-image: url("https://via.placeholder.com/1920x1080.png?text=");
+  background-size: cover;
+  background-position: center;
+}
+
+#hero h1 {
+  color: #fff;
+}
+
+#report-crime h2 {
+  margin-bottom: 2rem;
+}
+
+#map h2 {
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #5f5fff;
+  border-color: #5f5fff;
+}
+
+.btn-primary:hover {
+  background-color: #4a4aff;
+  border-color: #4a4aff;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-timeline: 10s;
+}
